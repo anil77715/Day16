@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27608" started-at="2016-01-04T23:05:19Z" finished-at="2016-01-04T23:05:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27608" started-at="2016-01-04T23:05:19Z" finished-at="2016-01-04T23:05:47Z">
+      <class name="Pack1.PriorityTestng">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Pack1.PriorityTestng@7b16b52c]" name="openBrowser" is-config="true" duration-ms="3904" started-at="2016-01-04T23:05:19Z" finished-at="2016-01-04T23:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="google()[pri:0, instance:Pack1.PriorityTestng@7b16b52c]" name="google" duration-ms="1510" started-at="2016-01-04T23:05:23Z" finished-at="2016-01-04T23:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Pack1.PriorityTestng@7b16b52c]" name="closeBrowser" is-config="true" duration-ms="125" started-at="2016-01-04T23:05:24Z" finished-at="2016-01-04T23:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Pack1.PriorityTestng@7b16b52c]" name="openBrowser" is-config="true" duration-ms="2530" started-at="2016-01-04T23:05:25Z" finished-at="2016-01-04T23:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="gmail()[pri:0, instance:Pack1.PriorityTestng@7b16b52c]" name="gmail" duration-ms="1060" started-at="2016-01-04T23:05:27Z" depends-on-methods="Pack1.PriorityTestng.google" finished-at="2016-01-04T23:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Pack1.PriorityTestng@7b16b52c]" name="closeBrowser" is-config="true" duration-ms="1161" started-at="2016-01-04T23:05:28Z" finished-at="2016-01-04T23:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Pack1.PriorityTestng@7b16b52c]" name="openBrowser" is-config="true" duration-ms="3265" started-at="2016-01-04T23:05:29Z" finished-at="2016-01-04T23:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="carwale()[pri:1, instance:Pack1.PriorityTestng@7b16b52c]" name="carwale" duration-ms="3109" started-at="2016-01-04T23:05:33Z" finished-at="2016-01-04T23:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carwale -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Pack1.PriorityTestng@7b16b52c]" name="closeBrowser" is-config="true" duration-ms="2679" started-at="2016-01-04T23:05:36Z" finished-at="2016-01-04T23:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Pack1.PriorityTestng@7b16b52c]" name="openBrowser" is-config="true" duration-ms="3187" started-at="2016-01-04T23:05:38Z" finished-at="2016-01-04T23:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="quikr()[pri:2, instance:Pack1.PriorityTestng@7b16b52c]" name="quikr" duration-ms="2122" started-at="2016-01-04T23:05:42Z" finished-at="2016-01-04T23:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quikr -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Pack1.PriorityTestng@7b16b52c]" name="closeBrowser" is-config="true" duration-ms="2924" started-at="2016-01-04T23:05:44Z" finished-at="2016-01-04T23:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Pack1.PriorityTestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
