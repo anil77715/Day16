@@ -14,6 +14,7 @@ public class TestNG_Tests {
 	@BeforeMethod
 	public void openBrowser() {
 		driver = new FirefoxDriver();
+//testing git file
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
